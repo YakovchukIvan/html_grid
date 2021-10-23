@@ -1,0 +1,77 @@
+.container {
+    background-color: rgb(41, 52, 61);
+    width: 1000px ;
+    display: grid;
+    grid-template-columns: repeat(6, 4fr);
+    grid-gap: 15px;
+    padding: 50px;
+    text-align: center;
+    font-weight: 600;
+    margin: 50px auto;
+}
+
+.div2 {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.div3 {
+    grid-column: span 2;
+}
+
+.div5 {
+    grid-column: span 2;
+}
+
+.div8 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+span {
+    display: inline-block;
+    margin: 25px;
+}
+
+.romb {
+    margin: 65px 25px;
+    padding: 12px 17px 12px 17px;
+    transform: rotate(45deg);
+    background: #ECECEC;
+    border-radius: 5px;
+}
+
+.romb1 {
+    margin: 65px 25px;
+    padding: 12px 12px 12px 14px;
+    transform: rotate(45deg);
+    background: #ECECEC;
+    border-radius: 5px;
+}
+
+.romb2 {
+    margin: 65px 25px;
+    padding: 12px 17px 12px 17px;
+    transform: rotate(45deg);
+    position:relative;
+    top: 95px;
+    background: #ECECEC;
+    border-radius: 5px;
+}
+
+.rotate {
+    transform: rotate(-45deg);
+    margin: 0;
+}
+
+.color {
+    background: linear-gradient(45deg, #FEDDAC, #FB7EB3);
+}
+
+.color_span2 {
+    background: linear-gradient(45deg, #72C9F6, #79EBE0);
+}
+
+.color_span3 {
+    background: linear-gradient(45deg, #dab3ff, #FB7EF6);
+}
